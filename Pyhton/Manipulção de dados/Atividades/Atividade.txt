@@ -1,0 +1,46 @@
+Pergunta 1
+Explique a diferença entre linguagens compiladas e linguagens interpretadas, 
+dando exemplos de cada uma.
+R: Linguagens compiladas precisam que o código seja transformado por um compilador antes de rodar.
+O compilador lê o código fonte, traduz para código de máquina, e gera um arquivo executável.Esse
+processo ocorre antes da execução.
+Linguagens interpretadas são processadas por um interpretador, que lê e executa o código linha 
+por linha, em tempo real, sem gerar um arquivo executável separado.
+
+Exemplo de Linguagem compilada: C, C++.
+Exemplo de Linguagem intrepretada: Python, Ruby.z
+
+Pertunta 2
+Compare as vantagens e desvantagens de usar uma IDE em vez do terminal para executar 
+scripts Python. Dê exemplos específicos para justificar sua resposta.
+R:Vantagens:
+Interface amigável, IDEs mostram seu código com cores, atalhos e sugestões de sintaxe. 
+Por exemplo, o PyCharm identifica automaticamente erros de indentação e variáveis não usadas.
+Debugging poderoso ,pode colocar breakpoints, ver valores de variáveis em tempo real. No VS Code,
+é possível depurar passo a passo sem sair da tela.
+Integrações úteis, muitas vêm com Git, terminal integrado, gerenciador de pacotes, snippets 
+de código.
+Autocompletar inteligente, evita erros bobos e acelera escrita.
+
+Desvantagens:
+Consome mais recursos, IDEs são mais pesadas. Em máquinas com pouca memória, podem travar.
+Curva de aprendizado, algumas têm muitas funções e podem confundir iniciantes.
+Dependência do ambiente, se estiver em um servidor remoto ou ambiente limitado, pode não ter acesso a uma IDE.
+Exemplo: 
+Imagine que você está criando um programa que acessa uma API, manipula dados e gera gráficos.
+Na IDE, você tem autocompletar para bibliotecas como requests e matplotlib, e pode visualizar os gráficos direto.
+No terminal, teria que rodar o script, ver erros e fazer ajustes manualmente, usando talvez um editor como nano ou vim.
+
+Pergunta 3
+Explique os conceitos de compilador e interpretador para a linguagem de programação.
+R: Um compilador é um programa que traduz o código fonte inteiro de uma vez para uma linguagem de máquina, 
+que o computador pode entender e executar diretamente.
+Um interpretador é um programa que lê e executa o código fonte linha por linha, sem gerar um arquivo compilado.
+
+Pergunta 4
+Cite as principais diferenças e funcionalidades que você observou com relação ao Jupyter 
+Notebook e o Pycharm.
+R: Acredito que o Jupyter tenha um foco mais interativo, explicativo e rapido. Por exemplo você vai utilizar ele para,
+análise de dados, visualizações rapidas e algo didatico.
+Já o Pycharm é algo mais concreto e pesado, é algo para se usar com projetos, como desenvolvimentos de aplicações mais completas
+ou com multiplos arquivos e testes.
